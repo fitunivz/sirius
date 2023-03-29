@@ -1,6 +1,7 @@
 import ChartBarIcon from '@heroicons/react/24/solid/ChartBarIcon';
 import CogIcon from '@heroicons/react/24/solid/CogIcon';
 import LockClosedIcon from '@heroicons/react/24/solid/LockClosedIcon';
+import ShieldCheckIcon from '@heroicons/react/24/solid/ShieldCheckIcon';
 import ShoppingBagIcon from '@heroicons/react/24/solid/ShoppingBagIcon';
 import UserIcon from '@heroicons/react/24/solid/UserIcon';
 import UserPlusIcon from '@heroicons/react/24/solid/UserPlusIcon';
@@ -16,7 +17,16 @@ export const items = [
       <SvgIcon fontSize="small">
         <ChartBarIcon />
       </SvgIcon>
-    )
+    ),
+  },
+  {
+    title: '內容審核',
+    path: '/reviews',
+    icon: (
+      <SvgIcon fontSize="small">
+        <ShieldCheckIcon />
+      </SvgIcon>
+    ),
   },
   {
     title: 'Customers',
@@ -25,7 +35,7 @@ export const items = [
       <SvgIcon fontSize="small">
         <UsersIcon />
       </SvgIcon>
-    )
+    ),
   },
   {
     title: 'Companies',
@@ -34,7 +44,7 @@ export const items = [
       <SvgIcon fontSize="small">
         <ShoppingBagIcon />
       </SvgIcon>
-    )
+    ),
   },
   {
     title: 'Account',
@@ -43,7 +53,7 @@ export const items = [
       <SvgIcon fontSize="small">
         <UserIcon />
       </SvgIcon>
-    )
+    ),
   },
   {
     title: 'Settings',
@@ -52,7 +62,7 @@ export const items = [
       <SvgIcon fontSize="small">
         <CogIcon />
       </SvgIcon>
-    )
+    ),
   },
   {
     title: 'Login',
@@ -61,7 +71,7 @@ export const items = [
       <SvgIcon fontSize="small">
         <LockClosedIcon />
       </SvgIcon>
-    )
+    ),
   },
   {
     title: 'Register',
@@ -70,7 +80,7 @@ export const items = [
       <SvgIcon fontSize="small">
         <UserPlusIcon />
       </SvgIcon>
-    )
+    ),
   },
   {
     title: 'Error',
@@ -79,6 +89,6 @@ export const items = [
       <SvgIcon fontSize="small">
         <XCircleIcon />
       </SvgIcon>
-    )
-  }
+    ),
+  },
 ];
